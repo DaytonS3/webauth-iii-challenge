@@ -70,7 +70,7 @@ server.post("/api/login", (req, res) => {
           message: `Welcome ${user.username}, token: ${token}`
         });
       } else {
-        res.status(404).json({ message: "Invaild Login" });
+        res.status(404).json({ message: "Invalid Login" });
       }
     })
     .catch(err => {
