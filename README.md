@@ -1,6 +1,6 @@
 # Authentication using JSON Web Tokens (JWTs)
 
-## Topics
+## Topics!
 
 - Authentication.
 - Express Middleware.
